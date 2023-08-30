@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cardpack/static/css/main.e0d5af50.css",
-    "main.js": "/cardpack/static/js/main.65a0e70f.js",
+    "main.js": "/cardpack/static/js/main.a37fc532.js",
     "index.html": "/cardpack/index.html",
     "main.e0d5af50.css.map": "/cardpack/static/css/main.e0d5af50.css.map",
-    "main.65a0e70f.js.map": "/cardpack/static/js/main.65a0e70f.js.map"
+    "main.a37fc532.js.map": "/cardpack/static/js/main.a37fc532.js.map"
   },
   "entrypoints": [
     "static/css/main.e0d5af50.css",
-    "static/js/main.65a0e70f.js"
+    "static/js/main.a37fc532.js"
   ]
 }
