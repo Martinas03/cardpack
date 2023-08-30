@@ -29,6 +29,8 @@ export const Main = () => {
 
     const navigate = useNavigate()
 
+    const obj =  qs.parse(window.location.search.substring(1))
+
 
     const params = qs.parse(location.search.substring(1))
 
@@ -63,15 +65,17 @@ export const Main = () => {
                 packName: objectOfParams.packName,
                 sortPacks: objectOfParams.sortPacks
             })
+            dispatch(setObject(obj))
+            console.log(objectOfParams2)
             // const filter =
             dispatch(setObject(params))
             // console.log(params)
             // console.log(filter.object)
             // console.log(objectOfParams2)
             navigate(`?${queryString}`)
-            console.log(qs.parse(window.location.search.substring(1)))
             // console.log(qs.parse(window.location.search.substring(1)))
-            console.log(params)
+            // console.log(qs.parse(window.location.search.substring(1)))
+            // console.log(params)
         }
     }, [
         isAuth,

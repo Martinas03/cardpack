@@ -59,7 +59,7 @@ export const Pagination = () => {
                 {pagesArray.map((pg, i) => {
                     let iPlusOne = i + 1
                     if (iPlusOne >= index && iPlusOne < (index + diapason)) {
-                        return <button disabled={loading} key={pg}
+                        return <button disabled={loading} key={i}
                                        className={page === pg ? s.navButton_focus : s.navButton}
                                        onClick={() => onChangePageNumber(pg)
                                        }>{pg}</button>
