@@ -14,7 +14,7 @@ const Login = () => {
 
     useEffect(() => {
         if (isAuth) {
-            navigate('/')
+            navigate('/cardpack')
         }
     }, [isAuth])
 
