@@ -2,7 +2,7 @@
   "name": "cardpack",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://Martinas03.github.io/",
+  "homepage":"https://Martinas03.github.io/cardpack",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
